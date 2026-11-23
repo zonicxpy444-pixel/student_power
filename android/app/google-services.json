@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "965392533624",
+    "project_id": "student-power-50703",
+    "storage_bucket": "student-power-50703.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965392533624:android:005f3f441c6a341f85858d",
+        "android_client_info": {
+          "package_name": "com.example.student_power"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCevbW2xy-ASTWV2_2ZDN_e6D5XN1aII2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
