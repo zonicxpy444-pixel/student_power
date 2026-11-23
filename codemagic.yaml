@@ -1,0 +1,8 @@
+workflows:
+  android-workflow:
+    name: Android APK
+    scripts:
+      - flutter pub get
+      - flutter build apk --release
+    artifacts:
+      - build/**/outputs/**/*.apk
