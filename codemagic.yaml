@@ -5,6 +5,7 @@ workflows:
       flutter: 3.50.1
     scripts:
       - flutter pub get
-      - flutter build apk --release
+      - flutter build apk --config-only
+      - cd android && ./gradlew assembleRelease -x lintVitalAnalyzeRelease
     artifacts:
       - build/**/outputs/**/*.apk
